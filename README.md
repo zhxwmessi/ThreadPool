@@ -4,7 +4,7 @@ ThreadPool
 A simple C++11 Thread Pool implementation.
 
 My usage:
-
+```c++
 void task(int i){
     std::cout << "hello " << i << std::endl;
     std::this_thread::sleep_for(std::chrono::seconds(1));
@@ -20,7 +20,7 @@ int main()
     }
     return 0;
 }
-
+```
 Basic usage:
 
 ```c++
